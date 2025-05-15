@@ -19,4 +19,7 @@
 
     Route::get('/apply', [ApplicationController::class, 'create'])->name('apply.create');
     Route::post('/apply', [ApplicationController::class, 'store'])->name('apply.store');
+    Route::post('/apply', [ApplicationController::class, 'store'])->name('apply.store');
+    Route::get('/thank-you', [ApplicationController::class, 'thankYou'])->name('apply.thankyou');
+
 
