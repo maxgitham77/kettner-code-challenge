@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Apply</title>
-    @vite('resources/js/app.js')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="p-6 bg-gray-100 font-sans">
 <div class="max-w-xl mx-auto">
