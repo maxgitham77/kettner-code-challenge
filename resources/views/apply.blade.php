@@ -9,7 +9,7 @@
 <div class="max-w-xl mx-auto">
     <h1 class="text-3xl font-bold mb-6">Application Form</h1>
 
-    <form action="{{ route('application.store') }}" method="POST" class="space-y-4 bg-white p-6 rounded shadow-md">
+    <form action="{{ route('apply.store') }}" method="POST" class="space-y-4 bg-white p-6 rounded shadow-md">
         @csrf
 
         <div>
