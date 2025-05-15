@@ -17,7 +17,6 @@
         return view('welcome');
     });
 
-
     Route::get('/apply', [ApplicationController::class, 'create'])->name('apply.create');
     Route::post('/apply', [ApplicationController::class, 'store'])->name('apply.store');
 
